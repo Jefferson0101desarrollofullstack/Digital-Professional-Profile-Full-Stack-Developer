@@ -10,9 +10,9 @@ TestimonialOne, ChooseOne, BlogOne, CTAOne, } from "../components";
     <HeaderOne/>
     <HeroOne/>
     <AboutOne/>
-    <!--ServicesOne/>
+    <ServicesOne/>
     <FeatureOne/>
-    <CounterOne/>
+    <!--CounterOne/>
     <ProjectOne/>
     <TestimonialOne/>
     <ChooseOne/>

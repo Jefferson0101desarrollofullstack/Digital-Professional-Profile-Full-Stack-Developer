@@ -41,9 +41,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="homepage-slides owl-carousel">
-
-    <!-- Slide de presentación personal -->
+  <!-- CAMBIO AQUÍ: id="sobre-mi" -->
+  <div id="home" class="homepage-slides owl-carousel">
+    <!-- Slide principal -->
     <div class="single-slide-item">
       <div class="overlay"></div>
       <div class="hero-area-content">
@@ -58,14 +58,14 @@ onMounted(() => {
                   y vivo cada línea de código como una expresión de mi fe en Cristo.
                 </p>
               </div>
-              <router-link :to="{ name: 'about' }" class="main-btn">Conóceme</router-link>
+              <button class="main-btn">Conóceme</button>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Slide adicional (puedes eliminar o cambiar si lo deseas) -->
+    <!-- Slide adicional -->
     <div class="single-slide-item hero-area-bg-2">
       <div class="overlay"></div>
       <div class="hero-area-content">
@@ -73,20 +73,18 @@ onMounted(() => {
           <div class="row justify-content-center">
             <div class="col-lg-12 wow fadeInUp animated" data-wow-delay=".2s">
               <div class="section-title text-center">
-                              <h6 class="text-white">Trabajo con propósito</h6>
-
-                     <h1>Desarrollo software<br />con pasión, precisión y propósito</h1>
-              <p>
+                <h6 class="text-white">Trabajo con propósito</h6>
+                <h1>Desarrollo software<br />con pasión, precisión y propósito</h1>
+                <p>
                   Creo sistemas funcionales, limpios y humanos.<br />
                   No solo escribo código, construyo experiencias que impactan vidas.
                 </p>
               </div>
-              <router-link :to="{ name: 'about' }" class="main-btn">Learn More</router-link>
+              <button class="main-btn">Learn More</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>

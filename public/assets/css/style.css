@@ -1336,7 +1336,7 @@ textarea:focus::-webkit-input-placeholder {
 .service-icon i:before {
 	font-size: 50px;
 	line-height: 35px;
-	color: #FF5316;
+	color: #4da6ff;
 	margin: 25px 0;
 	display: inline-block;
 }
@@ -1391,7 +1391,7 @@ single-service-area.active {
 
 .single-feature-item .feature-icon {
 	background: #eee;
-    color: #F25B26;
+    color: #4da6ff;
     display: inline-flex;
     padding: 30px 0;
     width: 80px;
@@ -1420,7 +1420,7 @@ single-service-area.active {
 	height: 100%;
 	top: -40px;
 	right: -40px;
-	border: 10px solid #F25B26;
+	border: 10px solid #4da6ff;
 	z-index: -1;
 }
 
@@ -2753,7 +2753,7 @@ ul.team-social li a {
 }
 
 #service-3 .single-service-area:hover .service-icon i:before {
-	color: #F35C27;
+	color: #4da6ff;
 }
 
 /*Achievement Section # 02
@@ -2876,7 +2876,7 @@ ul.team-social li a {
 .pop-up-video a.video-play-btn {
 	font-size: 20px;
 	color: #fff;
-	border: 2px solid #F35C27;
+	border: 2px solid #4da6ff;
 	border-radius: 50%;
 	padding: 15px;
 	width: 70px;
